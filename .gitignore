@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Carpetas de compilación
+/build/
+/bin/
+/out/
+
+# Archivos generados por el editor
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Archivos de configuración del entorno
+.env
+.env.*
+
+# Test binary, built with `go test -c`
+*.test
+
+# Dependencias del vendoring
+/vendor/
+
+# Archivos de cache
+*.cache
+
+.idea
+.DS_Store
+
+frontEndApp
+loggerApp
+listenerApp
+mailApp
+authApp
+brokerApp
